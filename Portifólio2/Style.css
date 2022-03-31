@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#itens-menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+}
+
+#itens-menu ul li {
+    display: inline;
+}
+
+#itens-menu ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+#itens-menu ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #EA0000;
+}
+
+header {
+    display: flex;
+    height: 50rem;
+}
+
+.card-header {
+    width: 50%;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.texto-header {
+    width: 30rem;
+    height: 25rem;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px rgb(66, 65, 65), 3px 3px 5px rgba(56, 56, 58, 0.29);
+    padding-top: 2rem;
+}
+
+.imagem-header {
+    display: flex;
+    width: 50%;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.foto-perfil {
+    height: 512px;
+    width: 512px;
+    border-radius: 100%;
+}
+
+.sessao-inf {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.personalidade {
+    width: 70%;
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px rgb(66, 65, 65), 3px 3px 5px rgba(56, 56, 58, 0.29);
+    padding-top: 1rem;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+
+}
+
+.img-protagonista {
+    width: 80%;
+    height: 15rem;
+
+}
+
+.sessao-tecnologias{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Configurando div responsavél pela galeria de imagens */
+.imagem-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  padding: 10px;
+}
+
+/* Configurando as imagens */
+.imagem-galeria {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.055);
+}
+
+
+.icone-mysql {
+ width: 150px;;
+ height:150px;
+ text-align: center;
+ display: inline-flex;
+}
+
+.icone-spring {
+ width:120px;
+ height:120px;
+ display: inline-flex;
+ text-align:center;
+ 
+}
+
+
+.card-projeto {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+
+}
+
+.projeto {
+  padding: 2rem;
+  
+}
+
+.card-tecnologias{
+  width: 40%;
+  display: flex;
+  color: white;
+  text-align: center;
+
+}
+
+.projeto-container, .tecnologias {
+  width: 50%;
+} 
+
+/* Configurações dos cards  */
+.projeto-container, .tecnologias {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 20px;
+box-shadow: -3px -3px 7px rgb(66, 65, 65), 3px 3px 5px rgba(56, 56, 58, 0.29);
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+.projeto-container p {
+  font-size: 20px;
+}
+
+
+.tecnologias i{
+  display: inline-flex;
+  text-align: center;
+  font-size: 80px;
+  padding: 50px ;
+  padding-top: 10px;
+}
+
+
+
+.fa-html5 {
+color:orange;
+}
+
+.fa-css3-alt {
+    color: blue;
+}
+
+.fa-js {
+    color:yellow;
+}
+
+.fa-java {
+    color:red;
+
+    
+}
+
+footer {
+    color: white;
+    height: 10rem;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo-projeto, .titulo-tec {
+ font-size: 40px;
+padding-bottom: 20px;
+font-style: italic;
+}
